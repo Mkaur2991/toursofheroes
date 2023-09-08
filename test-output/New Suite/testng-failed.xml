@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [New Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test Assessment(failed)">
+    <classes>
+      <class name="com.toursofheroes.automation.testscripts.HeroesDashboard">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testSearchHeroFeature"/>
+        </methods>
+      </class> <!-- com.toursofheroes.automation.testscripts.HeroesDashboard -->
+    </classes>
+  </test> <!-- Test Assessment(failed) -->
+</suite> <!-- Failed suite [New Suite] -->

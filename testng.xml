@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="New Suite">
+  <test name="Test Assessment">
+     <classes>
+      <class name="com.toursofheroes.automation.testscripts.HeroesDashboard"/>
+       <class name="com.toursofheroes.automation.testscripts.AddHeroes"/>
+        <class name="com.toursofheroes.automation.testscripts.UpdateHeroes"/>
+      </classes>
+  </test> <!-- Test -->    
+</suite> <!-- Suite -->

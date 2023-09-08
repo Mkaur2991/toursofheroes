@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-08T02:46:02 IST" name="New Suite" finished-at="2023-09-08T02:47:03 IST" duration-ms="60880">
+    <groups>
+    </groups>
+    <test started-at="2023-09-08T02:46:02 IST" name="Test Assessment" finished-at="2023-09-08T02:47:03 IST" duration-ms="60880">
+      <class name="com.toursofheroes.automation.testscripts.HeroesDashboard">
+        <test-method signature="testHeroesSite()[pri:1, instance:com.toursofheroes.automation.testscripts.HeroesDashboard@20deea7f]" started-at="2023-09-08T02:46:02 IST" name="testHeroesSite" description="Verify able to launch Tours of Heroes site and validate its title" finished-at="2023-09-08T02:46:17 IST" duration-ms="14298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHeroesSite -->
+        <test-method signature="testHeroesDashboard()[pri:2, instance:com.toursofheroes.automation.testscripts.HeroesDashboard@20deea7f]" started-at="2023-09-08T02:46:17 IST" name="testHeroesDashboard" description="Verify and Validate Tours of Heroes Dashboard Elements" finished-at="2023-09-08T02:46:20 IST" duration-ms="3627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHeroesDashboard -->
+        <test-method signature="testSearchHeroFeature()[pri:3, instance:com.toursofheroes.automation.testscripts.HeroesDashboard@20deea7f]" started-at="2023-09-08T02:46:20 IST" name="testSearchHeroFeature" description="Verify and Validate Searching a Hero at Dashboard" finished-at="2023-09-08T02:46:23 IST" duration-ms="3231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchHeroFeature -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.toursofheroes.automation.testscripts.HeroesDashboard@20deea7f]" started-at="2023-09-08T02:47:01 IST" name="tearDown" finished-at="2023-09-08T02:47:02 IST" duration-ms="1565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.toursofheroes.automation.testscripts.HeroesDashboard -->
+      <class name="com.toursofheroes.automation.testscripts.AddHeroes">
+        <test-method signature="AddHeroesSite()[pri:1, instance:com.toursofheroes.automation.testscripts.AddHeroes@5f058f00]" started-at="2023-09-08T02:46:23 IST" name="AddHeroesSite" description="Verify able to launch Tours of Heroes site and move to Heros module then validate its title" finished-at="2023-09-08T02:46:30 IST" duration-ms="6430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddHeroesSite -->
+        <test-method signature="testAddHeroesElements()[pri:2, instance:com.toursofheroes.automation.testscripts.AddHeroes@5f058f00]" started-at="2023-09-08T02:46:30 IST" name="testAddHeroesElements" description="Verify and Validate Add Heroes Module Elements" finished-at="2023-09-08T02:46:34 IST" duration-ms="3716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddHeroesElements -->
+        <test-method signature="testAddHeroFeature()[pri:3, instance:com.toursofheroes.automation.testscripts.AddHeroes@5f058f00]" started-at="2023-09-08T02:46:34 IST" name="testAddHeroFeature" description="Verify and Validate Adding of Hero" finished-at="2023-09-08T02:46:37 IST" duration-ms="3439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddHeroFeature -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.toursofheroes.automation.testscripts.AddHeroes@5f058f00]" started-at="2023-09-08T02:47:00 IST" name="tearDown" finished-at="2023-09-08T02:47:01 IST" duration-ms="552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.toursofheroes.automation.testscripts.AddHeroes -->
+      <class name="com.toursofheroes.automation.testscripts.UpdateHeroes">
+        <test-method signature="UpdateHeroesSite()[pri:1, instance:com.toursofheroes.automation.testscripts.UpdateHeroes@192d43ce]" started-at="2023-09-08T02:46:37 IST" name="UpdateHeroesSite" description="Verify able to launch Tours of Heroes site and move to Hero then validate its title" finished-at="2023-09-08T02:46:55 IST" duration-ms="17811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateHeroesSite -->
+        <test-method signature="testUpdateHero()[pri:2, instance:com.toursofheroes.automation.testscripts.UpdateHeroes@192d43ce]" started-at="2023-09-08T02:46:55 IST" name="testUpdateHero" description="Verify and Validate Update Hero Module Elements" finished-at="2023-09-08T02:46:59 IST" duration-ms="4595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateHero -->
+        <test-method signature="testUpdateHeroFeature()[pri:3, instance:com.toursofheroes.automation.testscripts.UpdateHeroes@192d43ce]" started-at="2023-09-08T02:46:59 IST" name="testUpdateHeroFeature" description="Verify and Validate Updating a Hero" finished-at="2023-09-08T02:47:00 IST" duration-ms="557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateHeroFeature -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.toursofheroes.automation.testscripts.UpdateHeroes@192d43ce]" started-at="2023-09-08T02:47:02 IST" name="tearDown" finished-at="2023-09-08T02:47:03 IST" duration-ms="936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.toursofheroes.automation.testscripts.UpdateHeroes -->
+    </test> <!-- Test Assessment -->
+  </suite> <!-- New Suite -->
+</testng-results>
